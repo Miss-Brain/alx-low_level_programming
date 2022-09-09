@@ -7,22 +7,23 @@
  */
 int main(void)
 {
-	char h;
+  char h;
 
-	h = 'a';
-	while (h <= 'z')
-{
-	if ((h != 'e') && (h != 'q'))
-{
+  h = 'a';
+  while (h <= 'z')
+    {
+      if ((h != 'e') && (h != 'q'))
+	{
 
-	putchar(h);
-	h++;
+	  putchar(h);
+	  h++;
+	}
+      else
+	{
+	  h++;
+	}
+    }
+  putchar('\n');
+  return (0);
 }
-        else
-{
-	h++;
-}
-}
-        putchar('\n');
-	return (0);
-}
+
