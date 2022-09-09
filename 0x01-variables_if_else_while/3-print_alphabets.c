@@ -20,7 +20,7 @@ l++;
 }
 while (j <= 'Z')
 {
-putchar('\n');
+putchar(j);
 j++;
 }
 putchar('\n');
